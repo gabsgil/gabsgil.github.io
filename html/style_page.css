@@ -1,0 +1,302 @@
+header{
+    background-color: #2C5560;
+    color: #FBFFCD;
+}
+ header, nav, main, footer{
+    width: 1200px;
+    color: #FBFFCD;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+                 }
+header{
+    background-color: #000000;
+    height: 150px;
+    }
+nav{
+    height: 50px;
+    background-color: #1C5560;
+    }
+ul{
+    list-style-type: none;
+    text-align: center;
+   }
+li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+main{
+    height:auto;
+    background-color:#1C5560;
+    }
+main nav{
+    width: 600px;
+        }
+footer{
+    height: 50px;
+    background-color: #001F36;
+    }
+section{
+    width: auto;
+    background-color:#79AE92;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 30px;
+                }
+#imagenedificios_img{
+    width: 240px;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+#imagencabana_img{
+    width: 360px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+#mapa_ico{
+    display: block;
+    margin-right: 0;
+    width: 72px;
+}
+#luffy_img{
+   width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ h2{
+    margin-bottom: 30px;
+    }
+h1, h5{
+    text-align: center;
+    padding: 30px; 
+    }
+p a: visited{
+    color: #001F36;
+    }
+p a: link{
+    color: #FBFFCD;
+    }
+p a: active{
+    color: orange;
+    }
+p{
+    margin-bottom: 20px;
+    }
+ul li{
+    width: 75px;
+    background-color: #FBFFCD;
+    color: #001F36;
+                padding: 10px;
+                border-radius: 10px;
+                text-decoration: none;
+            }
+                ul li a{
+                    text-decoration: none;
+                }
+               
+            /*nav ul li a:link, nav ul li a:visited{
+                color:#508C9B;
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color: #201E43;
+            }*/
+nav li:hover, nav li a:hover{
+    background-color: #1C5560;
+    color: #FBFFCD;
+}
+img{
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    display: inline-block
+    }
+#playa_img{
+     width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#dia_img{
+     width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#bosque_img{
+     width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h2{
+    margin-bottom: 20px;
+}
+#img_filtro_img{
+    text-align: center
+}
+#img filtro_img{
+    width:40%;
+    height: auto;
+    margin: 10px;
+}
+#filtro1{
+    filter: brightness(150%);
+}
+#filtro2{
+    filter: contrast(50%);
+}
+#filtro3{
+    filter: grayscale(100%);
+}
+#filtro4{
+    filter: sepia(100%);
+}
+#filtro5{
+    filter: saturate(70%);
+}
+#filtro6{
+    filter: opacity(40%);
+}
+#filtro7{
+    filter: invert(100%);
+}
+#filtro8{
+    filter: blur(10px);
+}
+#filtro9{
+    filter: drop-shadow(20px 20px 15px green);
+}
+#filtro10{
+    filter: contrast(150%) drop-shadow(10px 10px 5px black);
+}
+#filtro11{
+    filter: grayscale(80%) invert(5%) sepia(1%)
+}
+#filtro12{
+    filter: saturate(300%) opacity(80%)
+}
+table{
+    color: #FBFFCD;
+    margin: 10 auto;
+    padding: 20px;
+    border:3px solid blue;
+    border-collapse:separate;
+}
+#tabla1{
+    width: 900px;
+    border: 5px solid #79AE92;
+    border-collapse: collapse;
+}
+.tabla1 th{
+    background-color: #000000;
+    height: 50px;
+}
+.tabla1 tbody{
+    background-color: #FBFFCD;
+    color:#1C5560;
+}
+.tabla1 td{
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    margin: 20px;
+}
+.tabla1 td #tabla1th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1C5560;
+}
+
+#tabla1{
+    width: 150%;
+}
+#tabla2{
+    width: 1000px;
+    border: 5px solid #FBFFCD;
+    border-collapse: collapse;
+}
+#tabla2 thead{
+    text-align: center;
+}
+#tabla2 thead tr th{
+    background-color: #79AE92;
+    height: 60px;
+}
+#tabla2 td{
+    height: 40px;
+}
+#tabla2 tbody tr:nth-child(even){
+    background-color: #2C5560;
+}
+#tabla2 tbody tr:nth-child(odd){
+    background-color: #000000;
+}
+#tabla3{
+    width: 800px;
+    border: 5px solid #001F36;
+    border-collapse: collapse;
+}
+#tabla3 thead tr th{
+    background-color: #000000;
+    color: #79AE92;
+}
+#tabla3 td{
+    height: 90%;
+}
+#tabla3 tbody{
+    background-color: #2C5560;
+}
+#tabla3 tr:hover{
+    background-color: darkblue;
+    color:aliceblue;
+}
+#form{
+	width:30%;
+	height:auto;
+	padding:30px;
+	box-sizing:border-box;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #2C5560;
+}
+#label{
+	color: #CFC;
+	font-weight:bolder;
+}
+#form input[type=text], #form input[type=password]{
+	width:100%;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:10px;
+	background-color: #FBFFCD;
+	color: #909;
+	box-sizing:border-box;
+}
+#form input[type=submit]{
+	display:block;
+	width:20%;
+	margin-left:auto;
+	margin-right:auto;
+	height:30px;
+}
+#edad{
+	width:80%;
+	background-color: #FBFFCD;
+	color: #909;
+	margin-bottom: 20px;
+	margin-top:10px;
+}

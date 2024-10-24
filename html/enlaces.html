@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <title>Enlaces en html</title>
+        <style type="text/css">
+            *{
+                 margin:0;
+                 padding: 0;
+                 }
+                 header, nav, main, footer{
+                     width: 1200px;
+                     color: #EEEEEE;
+                     margin-left: auto;
+                     margin-right: auto;
+                     padding:30px;
+                 }
+                 header{
+                    background-color: #201E43;
+                    height: 150px;
+                }
+                 nav{
+                     height: 50px;
+                     background-color: #134B70;
+                }
+                ul{
+                    list-style-type: none;
+                    text-align: center;
+                }
+                li{
+                    display: inline-block;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                main{
+                     height:auto;
+                     background-color:#EEEEEE;
+                     }
+                 main nav{
+                    width: 600px;
+                    }
+                footer{
+                    height: 50px;
+                    background-color: #201E43;
+                     }
+                section{
+                    width: 800px;
+                    background-color:#508C9B;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    padding: 30px;
+                }
+                h2{
+                    margin-bottom: 30px;
+                }
+                h1, h5{
+                    text-align: center;
+                    padding: 30px; 
+                }
+                p a: visited{
+                    color: #201E43;
+                }
+                p a: link{
+                    color: #EEEEEE;
+                }
+                p a: active{
+                    color: orange;
+                }
+               p{
+                  margin-bottom: 20px;
+                }
+            ul li{
+                width: 75px;
+                background-color: #EEEEEE;
+                color: #201E43;
+                padding: 10px;
+                border-radius: 10px;
+                text-decoration: none;
+            }
+                ul li a{
+                    text-decoration: none;
+                }
+               
+            /*nav ul li a:link, nav ul li a:visited{
+                color:#508C9B;
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color: #201E43;
+            }*/
+            nav li:hover, nav li a:hover{
+                background-color: #201E43;
+                color: #EEEEEE;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>ENLACES</h1>
+        </header>
+        <nav>
+            <ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Listas_css.html">Listas</a></li>
+				<li><a href="enlaces.html">Enlaces</a></li>
+				<li><a href="tablas.html">Tablas</a></li>
+				<li><a href="imagenesactualizado.html">Imágenes</a></li>
+				<li><a href="audio.html">Audio</a></li>
+				<li><a href="videos.html">Video</a></li>
+				<li><a href="formularios.html">Formularios</a></li>
+			</ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="enlace_1">Enlaces esxternos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas lacus massa, in consequat sapien vulputate vitae. Sed ultricies lectus magna, at maximus sapien faucibus sed. Proin quis urna volutpat mauris mollis rhoncus eu nec metus. Sed id massa vestibulum, tempus quam ac, aliquam lorem. Curabitur sollicitudin porttitor urna ac aliquet.<a href="http://www.buap.mx">BUAP</a>. Quisque euismod pulvinar tortor quis pellentesque.
+             
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida fringilla pellentesque. Nam ac dolor et orci pretium accumsan a id ante. Donec convallis eleifend libero et auctor. Mauris in enim sollicitudin metus sodales vestibulum at ut neque. Nulla ex ipsum, facilisis vitae mauris vitae, convallis accumsan eros. Proin posuere quis lectus a egestas. Aenean venenatis nisi vitae est egestas, vitae finibus orci varius. Mauris sollicitudin suscipit sem, a consectetur purus auctor et. Donec sit amet nunc accumsan, tincidunt sem vitae, placerat dolor. Ut a mi eu quam luctus pulvinar. Fusce at nulla risus. Sed ornare eros odio, et hendrerit quam efficitur sit amet. Aliquam sit amet aliquet lectus.
+
+                Aenean dignissim ex nec enim ornare interdum. Maecenas commodo, dolor et aliquam maximus, arcu magna tempor ex, ac aliquet mauris elit <a href="https://sic.gob.mx/ficha.php?table=museo&table_id=1805">Museo Barroco</a> vel velit. Aenean nec fermentum mi. Duis bibendum diam non porttitor efficitur. Nunc et varius risus. Donec at felis justo. Proin vitae.
+                </p>
+            </section>
+            <section>
+                <h2 id="enlace_2">Enlaces internos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas lacus massa, in <a href="listas.html">Listas</a> consequat sapien vulputate vitae. Sed ultricies lectus magna, at maximus sapien faucibus sed. Proin quis urna volutpat mauris mollis rhoncus eu nec metus. Sed id massa vestibulum, tempus quam ac, aliquam lorem. Curabitur sollicitudin porttitor urna ac aliquet. 
+                    
+                Quisque euismod pulvinar tortor quis pellentesque. Aenean dignissim ex nec enim ornare interdum. Maecenas commodo, dolor et aliquam maximus, arcu magna tempor ex, ac aliquet mauris elit vel velit <a href="mi_primera_web.html.pdf" dowland> Mi primera web</a>. Aenean nec fermentum mi. Duis bibendum diam non porttitor efficitur. Nunc et varius risus. Donec at felis justo. Proin vitae.
+                    
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida fringilla pellentesque. Nam ac dolor et orci pretium accumsan a id ante. Donec convallis eleifend libero et auctor. Mauris in enim sollicitudin metus sodales vestibulum at ut neque. Nulla ex ipsum, facilisis vitae mauris vitae, convallis accumsan eros. Proin posuere quis lectus a egestas. Aenean venenatis nisi vitae est egestas, vitae finibus orci varius. Mauris sollicitudin suscipit sem, a consectetur purus auctor et. Donec sit amet nunc accumsan, tincidunt sem vitae, placerat dolor. Ut a mi eu quam luctus pulvinar. Fusce at nulla risus. Sed ornare eros odio, et hendrerit quam efficitur sit amet. Aliquam sit amet aliquet lectus.
+                </p>
+            </section>
+            <section>
+                <h2 id="enlace_3">Enlaces de página</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida fringilla pellentesque. Nam ac dolor et orci pretium accumsan a id ante. Donec convallis eleifend libero et auctor. Mauris in enim sollicitudin metus sodales vestibulum at ut neque. Nulla ex ipsum, facilisis vitae mauris vitae, convallis accumsan eros. Proin posuere quis lectus a egestas. Aenean venenatis nisi vitae est egestas, vitae finibus orci varius. Mauris sollicitudin suscipit sem, a consectetur purus auctor et. Donec sit amet nunc accumsan, tincidunt sem vitae, placerat dolor. Ut a mi eu quam luctus pulvinar. Fusce at nulla risus. Sed ornare eros odio, et hendrerit quam efficitur sit amet. Aliquam sit amet aliquet lectus.
+
+                Nam velit purus, ornare vitae vehicula sed, convallis sit amet tortor. Nam aliquet, augue et faucibus eleifend, elit mi semper tortor, in faucibus mi tortor ut magna. Fusce quis sodales leo. Maecenas maximus, mauris nec iaculis varius, justo massa varius augue, a blandit magna odio rhoncus nunc. Nunc et semper sem, a ullamcorper leo. In tempor ante lobortis orci lobortis, eget tempus urna blandit. Aenean tincidunt venenatis massa vitae tincidunt.
+
+                Vestibulum pharetra interdum diam sed consectetur. Donec ut lorem vitae sem hendrerit varius vitae ac dui. Phasellus aliquam commodo ante in pretium. Donec nisi quam, luctus vel ipsum quis, laoreet vehicula odio. Nunc nec congue sapien. Donec id elementum lacus. Proin posuere at magna eget convallis.
+                </p>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#enlace_1">Enlaces externos</a></li>
+                    <li><a href="#enlace_2">Enlaces internos</a></li>
+                    <li><a href="#enlace_3">Enlaces de página</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+            <h5>Elaborada por Gabriela Gil Salazar</h5>
+        </footer>
+    </body>
+</html>
