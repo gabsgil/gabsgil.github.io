@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>formularios</title>
+	<link href="../style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+    <h1>FORMULARIO EN HTML</h1>
+    </header>
+    <nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+            <li><a href="../html/Listas_css.html">Listas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/imagenesactualizado.html">Imágenes</a></li>
+            <li><a href="../html/audio.html">Audio</a></li>
+            <li><a href="../html/videos.html">Video</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+		</ul>
+	</nav>
+    <main>
+    	<section>
+        	<h2>Formulario de ingreso</h2>
+            <p>Mauris elementum nisi sed nisi pulvinar, quis egestas libero tristique. Nullam lorem est, placerat vel lectus nec, condimentum elementum mi. Quisque vitae dictum quam. In id ultrices massa, vel pretium sapien. Aenean sed vestibulum lorem. Suspendisse dictum libero sit amet velit iaculis, eu dapibus nisi gravida. Vivamus ullamcorper vel urna sit amet convallis. Vestibulum tempus blandit lacus, et bibendum felis dignissim nec. In hac habitasse platea dictumst. Suspendisse scelerisque massa et feugiat egestas. Mauris eget faucibus diam. Donec convallis ullamcorper tellus id iaculis. Phasellus a massa non tellus pellentesque pharetra. Proin non congue nibh, malesuada vestibulum diam. Sed bibendum vehicula orci in dignissim. Phasellus feugiat ipsum urna, id commodo augue scelerisque ut. Sed dapibus enim sit amet diam placerat, eu mattis felis faucibus. Nunc cursus ante ac mi viverra faucibus. Donec sapien quam, dapibus nec nibh sit amet, efficitur dapibus nibh. Praesent maximus tempus tempus. Ut pretium sagittis vestibulum. Donec in dolor eget justo interdum dictum. Nam aliquet rhoncus pulvinar. Sed id turpis urna.</p>
+          <form id="form" name="form" method="get">
+           	<label for="usuario">USUARIO:</label>
+          	<input name="usuario" type="text" id="usuario" maxlength="30">
+            <label for="password">CONTRASEÑA:</label>
+            <input name="password" type="password" id="password" maxlength="6">
+            <input type="submit" name="submit" id="submit" value="Enviar">
+          </form>
+        </section>	
+        <section>
+        	<h2>Formulario Anidado</h2>
+            <p>Nulla sollicitudin accumsan dui. Sed finibus, quam non ultricies dignissim, nulla justo cursus dolor, quis tincidunt est leo hendrerit est. In hac habitasse platea dictumst. Donec aliquet et massa sed pharetra. Duis ut dignissim purus. Maecenas odio lacus, mattis at aliquam eget, iaculis id ipsum. Aenean iaculis eu velit ut finibus. Ut varius suscipit ligula a interdum. Suspendisse odio ante, imperdiet congue iaculis sed, maximus et ipsum. Nullam convallis magna vitae dignissim mollis.</p>
+            <form id="form" name="form" method="get">
+           	<label for="nombre">NOMBRE:</label>
+          	<input name="nombre" type="text" id="usuario" maxlength="30">
+            <label for="apellidos">APELLIDOS:</label>
+            <input name="apellidos" type="password" id="password" maxlength="6">
+            <label for="edad">EDAD:</label>
+            <input name="edad" type="number" id="edad" max="100" min="18">
+            <label for="pais">PAÍS:</label>
+            <select name="pais" id="pais">
+            	<option value="andalucia">ANDALUCÍA</option>
+                <option value="bolivia">BOLIVIA</option>
+                <option value="colombia">COLOMBIA</option>
+                <option value="dinamarca">DINAMARCA</option>
+                <option value="estonia">ESTONIA</option>
+                <option value="filiphinas">MÉXICO</option>
+             </select>
+             <label for="genero">GÉNERO:</label>
+             <p>
+             	<input type="radio" name="GÉNERO" value="masculino" id="genero_0">
+                <label>MASCULINO</label>
+                <input type="radio" name="GÉNERO" value="femenino" id="genero_1">
+                <label>FEMENINO</label>
+                <br>
+              </p>
+                <label><input type="checkbox" name="musica" value="pop" id="musica_0">POP</label>
+                <label><input type="checkbox" name="musica" value="rock" id="musica_0">ROCK</label>
+                <label><input type="checkbox" name="musica" value="metal" id="musica_0">METAL</label>
+                <label><input type="checkbox" name="musica" value="clasica" id="musica_0">CLÁSICA</label>
+                <label><input type="checkbox" name="musica" value="regueton" id="musica_0">REGUETON</label>
+                <label><input type="checkbox" name="musica" value="electronica" id="musica_0">ELECTRÓNICA</label>
+                <label><input type="checkbox" name="musica" value="salsa" id="musica_0">SALSA</label>
+                <label><input type="checkbox" name="musica" value="rap" id="musica_0">RAP</label>
+                <label><input type="checkbox" name="musica" value="regional" id="musica_0">REGIONAL</label>
+                
+            <input type="submit" name="submit" id="submit" value="Enviar">
+          </form>
+        </section>
+        <section>
+        <h2>Formulario anidado 2</h2>
+        <p></p>
+        
+            <form id= "form" name="form" method="get">
+              <label for="homepage">Coloca aquí el link de tu canción favorita:</label>
+              <input type="url" id="homepage" name="homepage">
+              <input name="Enviar" type="submit" id="Enviar" value="Enviar">
+
+    </main>
+    <footer>
+    	<h5>Elaborado por Gabriela Gil Salazar</h5>
+    </footer>
+    </body>
+</html>

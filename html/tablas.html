@@ -1,0 +1,349 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../style_page.css" type="text/css">
+        <style type="text/css">
+               header, nav, main, footer{
+            width: 100%
+        }
+        main{
+            text-align: center;
+        }
+        section{
+            width: 70%;
+            height:auto;
+            display: inline-block;
+            margin: 10px;
+            text-align: left;
+            overflow: auto;
+            padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>TABLAS</h1>
+        </header>
+        <nav>
+            <ul>
+			<li><a href="index.html">Inicio</a></li>
+            <li><a href="../html/Listas_css.html">Listas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/imagenesactualizado.html">Imágenes</a></li>
+            <li><a href="../html/audio.html">Audio</a></li>
+            <li><a href="../html/videos.html">Video</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+		</ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tabla básica</h2>
+                <p>n aliquam feugiat dui, quis semper est sagittis a. Nulla rhoncus scelerisque ex, in suscipit nisi dictum id. Entero eget aliquam nulla. In fringilla ex risus, in laoreet odio rhoncus id. Nam et egestas erat. Maecenas eu vestibulum arcu, at sollicitudin sem. Maecenas maximus dapibus ante, nec luctus risus ultrices nec. Aenean ornare cursus dolor nec volutpat. Duis elementum arcu id lobortis varius. Vivamus dictum nisl id dapibus tristique. Proin ligula augue, blandit sit amet sempre vitae, maximus ut ligula. Nunc varius auctor dui efficitur consectetur. Pellentesque augue nisi, sodales sed arcu quis, ornare dictum lectus. Proin in pellentesque arcu, in vulputate purus. Nam sed egetas sem. Curabitur tristique dui eu tortor laoreet, eget lobortis risus iaculis</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Teléfono</th>
+                            <th>Correo electrónico</th>
+                        </tr>
+                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rakel</td>
+                            <td>González</td>
+                            <td>Morgano</td>
+                            <td>227 756 8950</td>
+                            <td>gatolatte7@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael</td>
+                            <td>Quintero</td>
+                            <td>Castillo</td>
+                            <td>222 837 8641</td>
+                            <td>rafayel10_09Qhotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Lucas</td>
+                            <td>De león</td>
+                            <td>Cantellano</td>
+                            <td>222 536 6050</td>
+                            <td>luke_dleon3@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rubí</td>
+                            <td>Herrera</td>
+                            <td>Sandoval</td>
+                            <td>222 389 5081</td>
+                            <td>silver10_eyes@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Viana</td>
+                            <td>Gil</td>
+                            <td>De Galuxen</td>
+                            <td>222 396 7524</td>
+                            <td>viana1324@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Diego</td>
+                            <td>Rosas</td>
+                            <td>Badillo</td>
+                            <td>222 416 3220</td>
+                            <td>ash07/jack@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+             <section>
+                <h2>Tabla modificada por clase y con uso de colspan</h2>
+                <p>n aliquam feugiat dui, quis semper est sagittis a. Nulla rhoncus scelerisque ex, in suscipit nisi dictum id. Entero eget aliquam nulla. In fringilla ex risus, in laoreet odio rhoncus id. Nam et egestas erat. Maecenas eu vestibulum arcu, at sollicitudin sem. Maecenas maximus dapibus ante, nec luctus risus ultrices nec. Aenean ornare cursus dolor nec volutpat. Duis elementum arcu id lobortis varius. Vivamus dictum nisl id dapibus tristique. Proin ligula augue, blandit sit amet sempre vitae, maximus ut ligula. Nunc varius auctor dui efficitur consectetur. Pellentesque augue nisi, sodales sed arcu quis, ornare dictum lectus. Proin in pellentesque arcu, in vulputate purus. Nam sed egetas sem. Curabitur tristique dui eu tortor laoreet, eget lobortis risus iaculis</p>
+                  <table border="1" id="" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Teléfono</th>
+                            <th>Correo electrónico</th>
+                        </tr>
+                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rakel</td>
+                            <td>González</td>
+                            <td>Morgano</td>
+                            <td>227 756 8950</td>
+                            <td>gatolatte7@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael</td>
+                            <td>Quintero</td>
+                            <td>Castillo</td>
+                            <td>222 837 8641</td>
+                            <td>rafayel10_09Qhotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Lucas</td>
+                            <td>De león</td>
+                            <td>Cantellano</td>
+                            <td>222 536 6050</td>
+                            <td>luke_dleon3@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rubí</td>
+                            <td>Herrera</td>
+                            <td>Sandoval</td>
+                            <td>222 389 5081</td>
+                            <td>silver10_eyes@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Viana</td>
+                            <td>Gil</td>
+                            <td>De Galuxen</td>
+                            <td>222 396 7524</td>
+                            <td>viana1324@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Diego</td>
+                            <td>Rosas</td>
+                            <td>Badillo</td>
+                            <td>222 416 3220</td>
+                            <td>ash07/jack@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+             <section>
+                <h2>Tabla Zebra</h2>
+                <p>n aliquam feugiat dui, quis semper est sagittis a. Nulla rhoncus scelerisque ex, in suscipit nisi dictum id. Entero eget aliquam nulla. In fringilla ex risus, in laoreet odio rhoncus id. Nam et egestas erat. Maecenas eu vestibulum arcu, at sollicitudin sem. Maecenas maximus dapibus ante, nec luctus risus ultrices nec. Aenean ornare cursus dolor nec volutpat. Duis elementum arcu id lobortis varius. Vivamus dictum nisl id dapibus tristique. Proin ligula augue, blandit sit amet sempre vitae, maximus ut ligula. Nunc varius auctor dui efficitur consectetur. Pellentesque augue nisi, sodales sed arcu quis, ornare dictum lectus. Proin in pellentesque arcu, in vulputate purus. Nam sed egetas sem. Curabitur tristique dui eu tortor laoreet, eget lobortis risus iaculis</p>
+                  <table border="1" id="tabla2">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th colspan="2">Teléfono</th>
+                            <th>Correo electrónico</th>
+                        </tr>
+                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rakel</td>
+                            <td>González</td>
+                            <td>Morgano</td>
+                            <td>227 756 8950</td>
+                            <td>222 896 2806</td>
+                            <td>gatolatte7@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael</td>
+                            <td>Quintero</td>
+                            <td>Castillo</td>
+                            <td>222 837 8641</td>
+                            <td>239 439 2091</td>
+                            <td>rafayel10_09Qhotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Lucas</td>
+                            <td>De león</td>
+                            <td>Cantellano</td>
+                            <td>222 536 6050</td>
+                            <td></td>
+                            <td>luke_dleon3@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rubí</td>
+                            <td>Herrera</td>
+                            <td>Sandoval</td>
+                            <td>222 389 5081</td>
+                            <td>222 765 6431</td>
+                            <td>silver10_eyes@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Viana</td>
+                            <td>Gil</td>
+                            <td>De Galuxen</td>
+                            <td>222 396 7524</td>
+                            <td>222 935 0704</td>
+                            <td>viana1324@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Diego</td>
+                            <td>Rosas</td>
+                            <td>Badillo</td>
+                            <td>222 416 3220</td>
+                            <td></td>
+                            <td>ash07/jack@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+             <section>
+                <h2>Tabla Hover</h2>
+                <p>n aliquam feugiat dui, quis semper est sagittis a. Nulla rhoncus scelerisque ex, in suscipit nisi dictum id. Entero eget aliquam nulla. In fringilla ex risus, in laoreet odio rhoncus id. Nam et egestas erat. Maecenas eu vestibulum arcu, at sollicitudin sem. Maecenas maximus dapibus ante, nec luctus risus ultrices nec. Aenean ornare cursus dolor nec volutpat. Duis elementum arcu id lobortis varius. Vivamus dictum nisl id dapibus tristique. Proin ligula augue, blandit sit amet sempre vitae, maximus ut ligula. Nunc varius auctor dui efficitur consectetur. Pellentesque augue nisi, sodales sed arcu quis, ornare dictum lectus. Proin in pellentesque arcu, in vulputate purus. Nam sed egetas sem. Curabitur tristique dui eu tortor laoreet, eget lobortis risus iaculis</p>
+                 <table border="1" id="tabla3">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Teléfono</th>
+                            <th>Correo electrónico</th>
+                        </tr>
+                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rakel</td>
+                            <td>González</td>
+                            <td>Morgano</td>
+                            <td>227 756 8950</td>
+                            <td>gatolatte7@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael</td>
+                            <td>Quintero</td>
+                            <td>Castillo</td>
+                            <td>222 837 8641</td>
+                            <td>rafayel10_09Qhotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Lucas</td>
+                            <td>De león</td>
+                            <td>Cantellano</td>
+                            <td>222 536 6050</td>
+                            <td>luke_dleon3@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rubí</td>
+                            <td>Herrera</td>
+                            <td>Sandoval</td>
+                            <td>222 389 5081</td>
+                            <td>silver10_eyes@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Viana</td>
+                            <td>Gil</td>
+                            <td>De Galuxen</td>
+                            <td>222 396 7524</td>
+                            <td>viana1324@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Diego</td>
+                            <td>Rosas</td>
+                            <td>Badillo</td>
+                            <td>222 416 3220</td>
+                            <td>ash07/jack@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+             <section>
+                <h2>Tabla con overflow</h2>
+                <p>n aliquam feugiat dui, quis semper est sagittis a. Nulla rhoncus scelerisque ex, in suscipit nisi dictum id. Entero eget aliquam nulla. In fringilla ex risus, in laoreet odio rhoncus id. Nam et egestas erat. Maecenas eu vestibulum arcu, at sollicitudin sem. Maecenas maximus dapibus ante, nec luctus risus ultrices nec. Aenean ornare cursus dolor nec volutpat. Duis elementum arcu id lobortis varius. Vivamus dictum nisl id dapibus tristique. Proin ligula augue, blandit sit amet sempre vitae, maximus ut ligula. Nunc varius auctor dui efficitur consectetur. Pellentesque augue nisi, sodales sed arcu quis, ornare dictum lectus. Proin in pellentesque arcu, in vulputate purus. Nam sed egetas sem. Curabitur tristique dui eu tortor laoreet, eget lobortis risus iaculis</p>
+                 <table border="1" id="tabla1" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Teléfono</th>
+                            <th>Correo electrónico</th>
+                        </tr>
+                     </thead>
+                    <tbody>
+                        <tr>
+                            <td>Rakel</td>
+                            <td>González</td>
+                            <td>Morgano</td>
+                            <td>227 756 8950</td>
+                            <td>gatolatte7@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael</td>
+                            <td>Quintero</td>
+                            <td>Castillo</td>
+                            <td>222 837 8641</td>
+                            <td>rafayel10_09Qhotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Lucas</td>
+                            <td>De león</td>
+                            <td>Cantellano</td>
+                            <td>222 536 6050</td>
+                            <td>luke_dleon3@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Rubí</td>
+                            <td>Herrera</td>
+                            <td>Sandoval</td>
+                            <td>222 389 5081</td>
+                            <td>silver10_eyes@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Viana</td>
+                            <td>Gil</td>
+                            <td>De Galuxen</td>
+                            <td>222 396 7524</td>
+                            <td>viana1324@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Diego</td>
+                            <td>Rosas</td>
+                            <td>Badillo</td>
+                            <td>222 416 3220</td>
+                            <td>ash07/jack@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+             <section>
+                <h2>Tabla</h2>
+                <p>n aliquam feugiat dui, quis semper est sagittis a. Nulla rhoncus scelerisque ex, in suscipit nisi dictum id. Entero eget aliquam nulla. In fringilla ex risus, in laoreet odio rhoncus id. Nam et egestas erat. Maecenas eu vestibulum arcu, at sollicitudin sem. Maecenas maximus dapibus ante, nec luctus risus ultrices nec. Aenean ornare cursus dolor nec volutpat. Duis elementum arcu id lobortis varius. Vivamus dictum nisl id dapibus tristique. Proin ligula augue, blandit sit amet sempre vitae, maximus ut ligula. Nunc varius auctor dui efficitur consectetur. Pellentesque augue nisi, sodales sed arcu quis, ornare dictum lectus. Proin in pellentesque arcu, in vulputate purus. Nam sed egetas sem. Curabitur tristique dui eu tortor laoreet, eget lobortis risus iaculis</p>
+            </section>
+        </main>
+        <footer>
+        <h5>Elaborado por Gabriela Gil Salazar</h5>
+        </footer>
+    </body>
+</html>
